@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.form {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.form-label {
+	cursor: pointer;
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.main-cont {
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	flex: 1 1 auto;
+	-webkit-box-pack: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.sub-cont {
+	padding-bottom: 18px;
+	color: rgb(255, 255, 255);
+}
+
+.svg-cont {
+	height: 60px;
+	width: 96px;
+}
+
+.selector-svg1 {
+	display: flex;
+	overflow: hidden;
+}
+
+.selector-svg1 > svg {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.selector-svg1 > svg > * {
+	fill: currentcolor;
+}
+
+.selector {
+	position: relative;
+	display: flex;
+	border-radius: 4px;
+	color: rgb(33, 33, 33);
+	background-color: rgb(255, 255, 255);
+}
+
+.file-handler {
+	cursor: pointer;
+	user-select: none;
+	margin: 0px;
+	outline: 0px;
+	border: 0px;
+	width: auto;
+	overflow: visible;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	color: inherit;
+	background-color: transparent;
+	transition: background-color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 15px 24px;
+	height: 54px;
+	position: relative;
+	border-radius: 4px 0px 0px 4px;
+	text-transform: uppercase;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+.selector-svg2 {
+	width: 24px;
+	height: 24px;
+}
+
+.selector-text {
+	margin-left: 6px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+button {
+	text-transform: none;
+}
+button,
+input {
+	overflow: visible;
+}
+button,
+input {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+.instruction {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 12px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+#drop-box {
+	width: 90%;
+	height: 250px;
+	border: 2px dashed black;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 12px auto 0 auto;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(13, 158, 255);
+	color: white;
+}
+
+#drop-box .dragover {
+	border-color: linear-gradient(
+		rgb(251, 255, 3),
+		rgb(0, 89, 255),
+		rgb(123, 255, 0)
+	);
+}
+/*
+.theme-btn {
+	background: var(--dark);
+	color: #fff;
+	display: inline-block;
+	transition: 0.3s;
+	border-radius: 16px;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 30px;
+}
+
+.theme-btn:hover {
+	background: #fff;
+	color: var(--dark);
+} */
